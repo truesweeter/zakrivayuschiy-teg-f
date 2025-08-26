@@ -1,1 +1,39 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
+:root {
+  --main-font: 'Inter', sans-serif;
+  --accent-font: 'PressStart2P', monospace;
+  --logo-font-size: clamp(49px, 7vw, 65px);
+  --title-font-size: clamp(14px, 2.3vw, 23px);
+  --main-font-size: 18px;
+
+  --header-padding-y: clamp(122px, 5vw, 130px);
+  --header-padding-x: clamp(16px, 10vw, 122.5px);
+
+  --horizontal-stripes: repeating-linear-gradient(
+    90deg,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  );
+  --vertical-stripes: repeating-linear-gradient(
+    0deg,
+    #d3d3d3 0 2px,
+    transparent 2px 4px
+  );
+  --vertical-gradient: linear-gradient(
+    to bottom,
+    #e7e7e7 0.01%,
+    #1a1a1a 100%
+  );
+
+  --main-block-width: clamp(375px, 50vw, 700px);
+
+  --text-stroke-color: #FFFFFF;
+
+  --sparks-color: #f00;
+  --contour-color: #000;
+  --contour-color-active: #f00;
+  --core-color: #000;
+  --core-color-active: #f00;
+  --main-body-color: #000;
+  --main-body-color-active: #f00;
+}
