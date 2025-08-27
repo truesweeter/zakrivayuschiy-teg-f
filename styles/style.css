@@ -154,17 +154,14 @@
 
 .button:hover .save__button-svg {
   fill: #fff;
+  z-index: 1;
+  color: #fff;
 }
 
 
 .save__button-svg {
   color: black;
   transition: color 0.5s ease;
-}
-
-.button:hover .save__button-svg {
-  z-index: 1;
-  color: #fff;
 }
 
 .button:focus {
