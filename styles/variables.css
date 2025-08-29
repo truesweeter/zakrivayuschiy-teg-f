@@ -6,8 +6,8 @@
   --title-font-size: clamp(14px, 2.3vw, 23px);
   --main-font-size: 18px;
 
-  --header-padding-y: clamp(122px, 5vw, 130px);
-  --header-padding-x: clamp(16px, 10vw, 122.5px);
+  --header-padding-y: clamp(122px, calc(122px + 0.00714 * (100vw - 320px)), 130px);
+  --header-padding-x: clamp(16px, calc(16px + 0.095089 * (100vw - 320px)), 122.5px);
 
   --horizontal-stripes: repeating-linear-gradient(
     90deg,
